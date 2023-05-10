@@ -1,4 +1,7 @@
-resource "local-exec" "test" {
-  command = "echo hi;"
-  interpreter = "bash"
+resource "null_resource" "exmp5a3225" {
+  provisioner "local-exec" {
+    command = "sleep 10; echo HI"
+    interpreter = ["bash", "-c"]
+  }
 }
+
