@@ -5,8 +5,4 @@ resource "null_resource" "exmp5a3225" {
   }
 }
 
-resource "aws_security_group" "test" {
-  vpc_id = "vpc-abcedf1234567890"
-  name = "test"
-}
 
