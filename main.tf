@@ -11,3 +11,8 @@ output "adgadg" {
     test2 = ["adg"]
   }
 }
+
+
+output "out2" {
+  value = "123"
+}
