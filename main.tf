@@ -5,4 +5,6 @@ resource "null_resource" "exmp5a32253" {
   }
 }
 
-
+output "adgadg" {
+  value = "adgadgadadgadgadgadg"
+}
