@@ -6,5 +6,8 @@ resource "null_resource" "exmp5a32253" {
 }
 
 output "adgadg" {
-  value = "adgadgadadgagadg"
+  value = {
+    test = "hi"
+    test2 = ["adg"]
+  }
 }
