@@ -15,4 +15,5 @@ output "adgadg" {
 
 output "out2" {
   value = "123"
+sensitive = true
 }
