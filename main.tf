@@ -14,6 +14,6 @@ output "adgadg" {
 
 
 output "out2" {
-  value = "123"
+  value = "123abc"
   sensitive = true
 }
