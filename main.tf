@@ -1,4 +1,4 @@
-resource "null_resource" "exmp5a322513553" {
+resource "null_resource" "exmp5553" {
   provisioner "local-exec" {
     command = "sleep 3; echo HI"
     interpreter = ["bash", "-c"]
